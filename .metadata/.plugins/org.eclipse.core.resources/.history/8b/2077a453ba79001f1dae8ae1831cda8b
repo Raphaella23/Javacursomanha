@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class SomaDigitos {
+
+	public static void main(String[] args) {
+		Scanner scanner = new scanner (System.in);
+		
+		System.out.println("Digite um numero inteiro: ");
+		int numero = scanner.nextInt();
+		
+		int soma = calculaSomaDigito(numero);
+		
+		System.out.println("A soma do digito é "+numero+ "é: "+soma );
+		scanner.close();
+		
+
+	}
+
+}

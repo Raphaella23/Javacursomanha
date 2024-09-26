@@ -1,0 +1,32 @@
+package cursoJava2024;
+
+public abstract class TrabalhandoComString {
+
+	public static void main(String[] args) {
+
+		String texto = "Bem vindo ao curso de JAVA";
+		String texto2 = "Vamos aprende sobre String";
+		
+		//1.Comprimento da String:
+		String nome = "Raphaella Alice Silva Souza";
+		System.out.println("Comprimento da String:"+nome.length());
+		
+		//2.Concatenar String:
+		String textoCompleto = texto +" "+ texto2;
+		System.out.println("Texto completo: " + textoCompleto);
+		String nome2 = "Raphaella";
+		String sobreNome = "Alice";		
+		System.out.println(nome2 + " " sobreNome);
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

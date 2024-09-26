@@ -1,0 +1,14 @@
+package cursoJava2024;
+
+public abstract class TrabalhandoComString {
+
+	public static void main(String[] args) {
+
+		String texto = "Bem vindo ao curso de JAVA";
+		String texto2 = "Vamos aprende sobre String";
+		
+		//1.Comprimento da String:
+		System.out.println("Comprimento da String:"+texto.length());
+	}
+
+}

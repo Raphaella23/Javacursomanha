@@ -22,19 +22,19 @@ public class CrudArray {
     	 opcao = scanner.nextInt();
 
     	 switch(opcao) {
-    	 case 1:
+    	 case  1:
     		 adicionarUsuario(scanner);
     			 break;
-    	 case 2:
+    	 case  2:
     		 exibirUsuarios();
                  break;
-    	 case 3:
+    	 case  3:
     		 atualizarUsuario(scanner);
     		 break;
-    	 case 4:
+    	 case  4:
     		 deletaUsuario(scanner);
     		 break;
-    	 case 5:
+    	 case  5:
     		 System.out.println("Saindo do sistema...!");
     		 break;
     		default:
@@ -72,7 +72,7 @@ public class CrudArray {
     		 System.out.println("Nenhum Ususario cadastrado!");
     	 } else {
     		 for (int i = 0; i < contador; i++) {
-    	 System.out.println((i + 1) +"Nome: "+ nomes[i] +", Idade"+idades[i]);
+    	 System.out.println((i + 1) +"Nome: "+  nomes[i]  +", Idade"+  idades[i]);
     		 }
     	 } 
     	 }

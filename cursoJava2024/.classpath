@@ -20,5 +20,6 @@
 	<classpathentry kind="src" path="Heranca"/>
 	<classpathentry kind="src" path="CRUD"/>
 	<classpathentry kind="src" path="Cap8Lab1"/>
+	<classpathentry kind="src" path="Funcionario"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

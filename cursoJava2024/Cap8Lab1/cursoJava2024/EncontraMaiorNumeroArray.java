@@ -9,12 +9,12 @@ public class EncontraMaiorNumeroArray {
     }
 
     public static int encontrarMaiorNumero(int[] array) {
-        int maior = array[0]; // Inicializa com o primeiro elemento
+        int maior = array[0];
         for (int i = 1; i < array.length; i++) {
             if (array[i] > maior) {
-                maior = array[i]; // Atualiza se encontrar um número maior
+                maior = array[i]; 
             }
         }
-        return maior; // Retorna o maior número após percorrer todo o array
+        return maior; 
     }
 }

@@ -15,7 +15,7 @@ for(Integer numero : numeros) {
 		
 	}
 }
-		System.out.println("Números pares:"+ numerosPares);
+		System.out.println("Números Pares:"+ numerosPares);
 		
 		
 		

@@ -1,4 +1,4 @@
-package calculadoraIMCIAC;
+package cursoJava2024;
 
 import javax.swing.*;
 import java.awt.*;
@@ -16,7 +16,7 @@ public class CalculadoraIMCIAC extends JFrame {
         setSize(400, 300);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLocationRelativeTo(null); // Centraliza a janela
-        
+
         // Layout da janela
         setLayout(new GridLayout(7, 2));
 
@@ -31,7 +31,7 @@ public class CalculadoraIMCIAC extends JFrame {
         JButton btnCalcular = new JButton("Calcular");
         lblResultadoIMC = new JLabel("IMC: ");
         lblResultadoIAC = new JLabel("IAC: ");
-        
+
         // Adiciona os componentes à janela
         add(lblPeso);
         add(txtPeso);

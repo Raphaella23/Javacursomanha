@@ -1,6 +1,6 @@
 package cursoJava2024;
 
-public class Motos extends Veiculo {
+public class Motos extends Veiculo1 {
    private boolean temBagageiro;
    
    public Motos(String marca, String modelo, int ano, boolean temBagageiro) {

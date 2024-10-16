@@ -1,6 +1,6 @@
 package cursoJava2024;
 
-public class Carro  extends Veiculo{
+public class Carro  extends Veiculo1{
 
      private int numeroDePortas;
      

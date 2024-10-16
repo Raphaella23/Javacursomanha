@@ -21,5 +21,9 @@
 	<classpathentry kind="src" path="CRUD"/>
 	<classpathentry kind="src" path="Cap8Lab1"/>
 	<classpathentry kind="src" path="Funcionario"/>
+	<classpathentry kind="src" path="Interfaces"/>
+	<classpathentry kind="src" path="InterfacesP"/>
+	<classpathentry kind="src" path="GUI"/>
+	<classpathentry kind="src" path="JavaStream"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
